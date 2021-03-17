@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(79, 155, 79);
+}
+
+h1 {
+    font-family: 'Redressed', cursive;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.top-box {
+    margin: 0px;
+    background-color: rgb(155, 168, 226);
+    position: relative;
+    padding-top: 100px;
+}
+
+.cloud {
+    position: absolute;
+    top: 70px;
+    right: 380px;
+}
+
+.cloud-1 {
+    position: absolute;
+    left: 350px;
+    bottom: 325px;
+}
+
+.mountain {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+hr {
+    border-color: springgreen;
+}
+
+.skill-row {
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.html {
+    height: 100px;
+}
+
+.css {
+    height: 100px;
+}
