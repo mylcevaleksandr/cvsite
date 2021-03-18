@@ -19,16 +19,96 @@ span {
     padding-top: 100px;
 }
 
+.clouds {
+    position: absolute;
+    bottom: 345px;
+
+    -webkit-animation: movingclouds 15s linear infinite;
+    -moz-animation: movingclouds 15s linear infinite;
+    -o-animation: movingclouds 15s linear infinite;
+}
+
+.clouds-2 {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.7;
+    -webkit-animation: movingclouds 12s linear infinite;
+    -moz-animation: movingclouds 12s linear infinite;
+    -o-animation: movingclouds 12s linear infinite;
+}
+
+.clouds-3 {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    opacity: 0.6;
+    -webkit-animation: movingclouds 10s linear infinite;
+    -moz-animation: movingclouds 10s linear infinite;
+    -o-animation: movingclouds 10s linear infinite;
+}
+
+.clouds-4 {
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    opacity: 0.6;
+    -webkit-animation: movingclouds 11s linear infinite;
+    -moz-animation: movingclouds 11s linear infinite;
+    -o-animation: movingclouds 11s linear infinite;
+
+}
+
+.clouds-5 {
+    position: absolute;
+    left: 800px;
+    top: 65px;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.6;
+    -webkit-animation: movingclouds 15s linear infinite;
+    -moz-animation: movingclouds 15s linear infinite;
+    -o-animation: movingclouds 15s linear infinite;
+}
+
+
+
+
+
 .cloud {
     position: absolute;
-    top: 70px;
-    right: 380px;
+    top: 75px;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-animation: movingclouds 16s linear infinite;
+    -moz-animation: movingclouds 16s linear infinite;
+    -o-animation: movingclouds 16s linear infinite;
 }
 
 .cloud-1 {
     position: absolute;
     left: 350px;
     bottom: 325px;
+    opacity: 0.7;
+    -webkit-animation: movingclouds 10s linear infinite;
+    -moz-animation: movingclouds 10s linear infinite;
+    -o-animation: movingclouds 10s linear infinite;
+}
+
+@keyframes movingclouds {
+    0% {
+        margin-left: 1000px;
+    }
+
+    100% {
+        margin-left: -1000px;
+    }
 }
 
 .mountain {
