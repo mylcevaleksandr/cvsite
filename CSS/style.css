@@ -72,9 +72,9 @@ span {
     -moz-transform: scale(0.6);
     transform: scale(0.6);
     opacity: 0.6;
-    -webkit-animation: movingclouds 32s linear infinite;
-    -moz-animation: movingclouds 32s linear infinite;
-    -o-animation: movingclouds 32s linear infinite;
+    -webkit-animation: movingclouds 35s linear infinite;
+    -moz-animation: movingclouds 35s linear infinite;
+    -o-animation: movingclouds 35s linear infinite;
 }
 
 
@@ -105,7 +105,7 @@ span {
 
 @keyframes movingclouds {
     0% {
-        margin-left: 110%;
+        margin-left: 5%;
     }
 
     100% {
