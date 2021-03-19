@@ -22,58 +22,59 @@ span {
 .clouds {
     position: absolute;
     bottom: 345px;
+    left: 100%;
 
-    -webkit-animation: movingclouds 15s linear infinite;
-    -moz-animation: movingclouds 15s linear infinite;
-    -o-animation: movingclouds 15s linear infinite;
+    -webkit-animation: movingclouds 23s linear infinite;
+    -moz-animation: movingclouds 23s linear infinite;
+    -o-animation: movingclouds 23s linear infinite;
 }
 
 .clouds-2 {
     position: absolute;
-    left: 200px;
+    left: 100%;
     top: 50px;
 
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     transform: scale(0.6);
     opacity: 0.7;
-    -webkit-animation: movingclouds 12s linear infinite;
-    -moz-animation: movingclouds 12s linear infinite;
-    -o-animation: movingclouds 12s linear infinite;
+    -webkit-animation: movingclouds 22s linear infinite;
+    -moz-animation: movingclouds 22s linear infinite;
+    -o-animation: movingclouds 22s linear infinite;
 }
 
 .clouds-3 {
     position: absolute;
-    left: 400px;
+    left: 100%;
     top: 50px;
     opacity: 0.6;
-    -webkit-animation: movingclouds 10s linear infinite;
-    -moz-animation: movingclouds 10s linear infinite;
-    -o-animation: movingclouds 10s linear infinite;
+    -webkit-animation: movingclouds 27s linear infinite;
+    -moz-animation: movingclouds 27s linear infinite;
+    -o-animation: movingclouds 27s linear infinite;
 }
 
 .clouds-4 {
     position: absolute;
-    left: 600px;
+    left: 100%;
     top: 30px;
     opacity: 0.6;
-    -webkit-animation: movingclouds 11s linear infinite;
-    -moz-animation: movingclouds 11s linear infinite;
-    -o-animation: movingclouds 11s linear infinite;
+    -webkit-animation: movingclouds 30s linear infinite;
+    -moz-animation: movingclouds 30s linear infinite;
+    -o-animation: movingclouds 30s linear infinite;
 
 }
 
 .clouds-5 {
     position: absolute;
-    left: 800px;
+    left: 100%;
     top: 65px;
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     transform: scale(0.6);
     opacity: 0.6;
-    -webkit-animation: movingclouds 15s linear infinite;
-    -moz-animation: movingclouds 15s linear infinite;
-    -o-animation: movingclouds 15s linear infinite;
+    -webkit-animation: movingclouds 32s linear infinite;
+    -moz-animation: movingclouds 32s linear infinite;
+    -o-animation: movingclouds 32s linear infinite;
 }
 
 
@@ -83,31 +84,32 @@ span {
 .cloud {
     position: absolute;
     top: 75px;
+    left: 100%;
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     transform: scale(0.7);
-    -webkit-animation: movingclouds 16s linear infinite;
-    -moz-animation: movingclouds 16s linear infinite;
-    -o-animation: movingclouds 16s linear infinite;
+    -webkit-animation: movingclouds 26s linear infinite;
+    -moz-animation: movingclouds 26s linear infinite;
+    -o-animation: movingclouds 26s linear infinite;
 }
 
 .cloud-1 {
     position: absolute;
-    left: 350px;
+    left: 100%;
     bottom: 325px;
     opacity: 0.7;
-    -webkit-animation: movingclouds 10s linear infinite;
-    -moz-animation: movingclouds 10s linear infinite;
-    -o-animation: movingclouds 10s linear infinite;
+    -webkit-animation: movingclouds 20s linear infinite;
+    -moz-animation: movingclouds 20s linear infinite;
+    -o-animation: movingclouds 20s linear infinite;
 }
 
 @keyframes movingclouds {
     0% {
-        margin-left: 1000px;
+        margin-left: 110%;
     }
 
     100% {
-        margin-left: -1000px;
+        margin-left: -110%;
     }
 }
 
