@@ -19,7 +19,7 @@ h1 {
 span {
     text-decoration: underline;
     text-decoration-color: chartreuse;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 2px;
 }
 
 .top-box {
@@ -29,97 +29,64 @@ span {
     padding-top: 100px;
 }
 
+.cloud {
+    position: absolute;
+    top: 75px;
+    transform: scale(0.7);
+    animation: movingclouds 26s linear infinite;
+}
+
+.cloud-1 {
+    position: absolute;
+    bottom: 325px;
+    opacity: 0.7;
+    animation: movingclouds 20s linear infinite;
+}
+
 .clouds {
     position: absolute;
     bottom: 345px;
-    left: 95%;
-
-    -webkit-animation: movingclouds 23s linear infinite;
-    -moz-animation: movingclouds 23s linear infinite;
-    -o-animation: movingclouds 23s linear infinite;
+    animation: movingclouds 23s linear infinite;
 }
 
 .clouds-2 {
     position: absolute;
-    left: 95%;
     top: 50px;
-
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
     transform: scale(0.6);
     opacity: 0.7;
-    -webkit-animation: movingclouds 22s linear infinite;
-    -moz-animation: movingclouds 22s linear infinite;
-    -o-animation: movingclouds 22s linear infinite;
+    animation: movingclouds 22s linear infinite;
 }
 
 .clouds-3 {
     position: absolute;
-    left: 95%;
     top: 50px;
     opacity: 0.6;
-    -webkit-animation: movingclouds 27s linear infinite;
-    -moz-animation: movingclouds 27s linear infinite;
-    -o-animation: movingclouds 27s linear infinite;
+    animation: movingclouds 27s linear infinite;
 }
 
 .clouds-4 {
     position: absolute;
-    left: 95%;
     top: 30px;
     opacity: 0.6;
-    -webkit-animation: movingclouds 30s linear infinite;
-    -moz-animation: movingclouds 30s linear infinite;
-    -o-animation: movingclouds 30s linear infinite;
+    animation: movingclouds 30s linear infinite;
 
 }
 
 .clouds-5 {
     position: absolute;
-    left: 95%;
     top: 65px;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
     transform: scale(0.6);
     opacity: 0.6;
-    -webkit-animation: movingclouds 35s linear infinite;
-    -moz-animation: movingclouds 35s linear infinite;
-    -o-animation: movingclouds 35s linear infinite;
-}
-
-
-
-
-
-.cloud {
-    position: absolute;
-    top: 75px;
-    left: 95%;
-    -webkit-transform: scale(0.7);
-    -moz-transform: scale(0.7);
-    transform: scale(0.7);
-    -webkit-animation: movingclouds 26s linear infinite;
-    -moz-animation: movingclouds 26s linear infinite;
-    -o-animation: movingclouds 26s linear infinite;
-}
-
-.cloud-1 {
-    position: absolute;
-    left: 95%;
-    bottom: 325px;
-    opacity: 0.7;
-    -webkit-animation: movingclouds 20s linear infinite;
-    -moz-animation: movingclouds 20s linear infinite;
-    -o-animation: movingclouds 20s linear infinite;
+    animation: movingclouds 35s linear infinite;
 }
 
 @keyframes movingclouds {
     0% {
-        margin-left: 5%;
+        left: 88%;
     }
 
     100% {
-        margin-left: -110%;
+        left: -15%;
     }
 }
 
