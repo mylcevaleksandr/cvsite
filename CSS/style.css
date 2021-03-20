@@ -82,7 +82,7 @@ span {
 
 @keyframes movingclouds {
     0% {
-        left: 80%;
+        left: 100%;
     }
 
     100% {
