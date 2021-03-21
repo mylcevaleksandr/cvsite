@@ -10,6 +10,12 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    color: chartreuse;
+}
+
+
+
 .p1 {
     font-family: serif;
     color: #008181;
@@ -22,11 +28,51 @@ span {
     text-decoration-thickness: 2px;
 }
 
+hr {
+    border-color: springgreen;
+}
+
+.mountain {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.skill-row {
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.html {
+    height: 100px;
+}
+
+.css {
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+a:hover {
+    color: rgb(3, 1, 128)
+}
+
 .top-box {
     margin: 0px;
     background-color: rgb(155, 168, 226);
     position: relative;
     padding-top: 100px;
+}
+
+.bottom-container {
+    margin-top: 10px;
 }
 
 .cloud {
@@ -82,45 +128,10 @@ span {
 
 @keyframes movingclouds {
     0% {
-        left: 85%;
+        left: 83%;
     }
 
     100% {
         left: -15%;
     }
-}
-
-.mountain {
-    margin-bottom: 20px;
-}
-
-.profile-image {
-    border-radius: 25px;
-    margin-top: 20px;
-}
-
-hr {
-    border-color: springgreen;
-}
-
-.skill-row {
-    display: inline-block;
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
-.html {
-    height: 100px;
-}
-
-.css {
-    height: 100px;
-}
-
-h2 {
-    color: chartreuse;
-}
-
-a {
-    color: chartreuse;
 }
